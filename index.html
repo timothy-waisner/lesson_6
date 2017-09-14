@@ -6,14 +6,19 @@
     <meta http-equiv="X-Ua-Compatible" content="IE=EDGE">
     
     <!--Links to css files or font files-->
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/framework.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+<!--    <link rel="stylesheet" type="text/css" href="css/framework.css">-->
    
 </head>
     
     <body>
+        <div class="container-fluid">
         <div class="row">
-            <div class="col-12 border">
+            <div class="col-md-12 border">
                  <header id="header">
                 <h1>Web Ninja</h1>   
                 </header>
@@ -26,7 +31,7 @@
         </div>
 <!--        End Header-->
         <div class="row">
-            <div class="col-12 border">
+            <div class="col-md-12 border">
                 <nav id="nav">
                 <ul class="button-wrap">
                     <button>Schedule</button>
@@ -47,10 +52,10 @@
       
             
           <div class="row max-width">
-          <div class="col-8 border">
+          <div class="col-md-8 border">
               <div id="main-content-wrapper">
-                <div class="side-by-side">
-                  <section class="image-content">
+                <div class="row">
+                  <section class="image-content col-6">
                     
                     <img src="http://nmelp3rtl8l2tnuwd2blzv3ecu.wpengine.netdna-cdn.com/wp-content/themes/nationswell/img/placeholder.jpg">
                       <h4>
@@ -84,7 +89,7 @@
               </div>
               </div>
 <!--    end main-contetn-wrapper-->
-              <div class="col-4 border">
+              <div class="col-md-4 border">
         
               <div id="aside-content-wrapper">
                 <aside id="aside-right">
@@ -103,31 +108,35 @@
               </div>
               </div>
 <!--end middle-wrapper-->
-            </div>
+            </div class="row">
             
    
-            <div id="favorite-sites" class="row">
+            <div id="favorite-sites">
+                <div class="row">
             
-            <div class='col-4 border'>
-                <img src="images/gmail.jpg">
+            <div class='col-md-4 border'>
+                <img class="img-responsive" src="images/gmail.jpg">
                 </div>
-            <div class='col-4 border'>
-                <img src="images/ic.jpg">
+            <div class='col-md-4 border'>
+                <img class="img-responsive" src="images/ic.jpg">
                 </div>
-            <div class='col-4 border'>
-                <img src="images/pgames.jpg">
+            <div class='col-md-4 border'>
+                <img class="img-responsive" src="images/pgames.jpg">
                 </div>
-                
+                </div>
                 
         
   
         </div>
         <div class="row">
-            <div class="col-12 border"> 
+            <div class="col-md-12 border"> 
                 <footer><h1>Footy</h1></footer>
                 </div>
                 </div>
+            </div>
         
+    <script src="js/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script> 
     <script src="js/main.js"></script>    
         
         
