@@ -1,0 +1,235 @@
+/*
+COLORS:
+PINK: #FF0082
+YELLOW-GREEN: #A4E800
+BLUE: #2D00FF
+ORANGE: #E8A20C
+LIGHT BLUE: #00E2FF
+*/
+
+
+body {
+    background-color: none;
+    color: #2D00FF;
+    font-family: "Oswald"
+    
+}
+
+header {
+    background-color: none;  
+    min-height: 80px;
+    
+}
+
+#header > h1 {
+    margin: 0;
+    text-align: center;
+/*    font-family: "Oswald";*/
+    position: relative;
+    transform: translateY(50%);
+    
+}
+
+#nav {
+    background-color:#2D00FF;
+    min-height: 80px;
+/*    font-family: "Oswald";*/
+    height: auto;
+    
+}
+#nav > ul {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    margin: 0;
+   
+    
+}
+
+#nav > ul > button {
+    min-width: 178px;
+    color: white;
+    background-color: #E8A20C;
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25s;
+    border-bottom: 2px solid #2D00FF;
+
+}
+#nav > ul > button:hover {
+    background-color: #FF0082;
+}
+/*
+.menu {
+    display: flex;
+    background: aliceblue;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+}
+*/
+/*
+#middle-wrapper-width {
+    display: flex;
+    font-family: "Oswald";
+    max-width: 960px;
+    margin: 0 auto;
+    
+    
+    }
+
+    
+#middle-wrapper {
+      
+}
+*/
+
+#main-content-wrapper {
+    background-color: #fff;
+    
+}
+
+
+.side-by-side {
+    
+}
+
+#main-content-wrapper .image-content {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 4px #2b88ff solid;
+}
+
+.image-content > h4 {
+    
+/*    font-family: "Oswald";*/
+    font-weight: 300;
+    color: #FF0082;
+    
+}
+
+.image-content > h4 > a {
+    color: #FF0082;  
+}
+.image-content > h4 > a:hover {
+    color: #A4E800;
+}
+
+#main-content-wrapper article {
+   
+}
+#main-content-wrapper article h2 {
+    text-align: center;
+    
+}
+#main-content-wrapper article p {
+    max-width: 300px;
+    margin:0 auto;
+}
+
+#main-content-wrapper #skills{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    
+}
+#main-content-wrapper #skills span { 
+    font-weight: 400;
+   
+    
+}
+#aside-content-wrapper {
+    background-color: white;
+    margin-top: 50px;
+/*    font-family: "Oswald";*/
+}
+#aside-right {
+    margin: 0 50px 0 8px
+    
+}
+#aside-right h3 {
+   text-align: center;
+    
+}
+
+#latest-work {
+    list-style-type: none;
+  
+}
+
+#latest-work > li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px black solid;
+        
+  
+}
+
+#latest-work > li:before {
+    content: "";
+    border-color: transparent #008ef9;
+    border-style: solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: .9em;
+    position: relative;
+
+    
+}
+
+
+
+#favorite-sites {
+    background-image: url(img/bg.jpg) ;
+    border-top: 5px #b2790f solid;
+    border-bottom: 5px #008ef9 solid;
+    text-align: center;
+    
+}
+
+
+#favorite-sites ul {
+   list-style-type: none;
+   display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 40px;
+}
+footer {
+    background-color: #fff;
+  text-align: center;
+/*    font-family: "Oswald";*/
+    min-height: 100px;
+}
+
+footer > h1 {
+    margin: 0;
+    transform: translateY(50%);
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/*Bootstrap Related*/
+.container-fluid {
+    padding: 0;
+}
+
+.img-modal {
+    text-align: center;
+}
+
+#favorite-sites > .row > .col-md-4 > img {
+    margin: 0 auto;
+}
